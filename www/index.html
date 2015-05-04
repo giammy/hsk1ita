@@ -6,7 +6,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="mobile-web-app-capable" content="yes">
 
-  <title>HSK1</title>  
+  <title>HSK1 Italiano</title>  
   
   <link rel="stylesheet" href="lib/onsen/css/onsenui.css">  
   <link rel="stylesheet" href="styles/app.css"/>
@@ -72,7 +72,7 @@
   <ons-navigator var="navi">
     <ons-page>
       <ons-toolbar>
-        <div class="center">HSK 1</div>
+        <div class="center">HSK 1 Italiano</div>
       </ons-toolbar>
 
       <ons-list ng-controller="MasterController">
@@ -105,10 +105,10 @@ by www.giammy.com/hsk
     <ons-page ng-controller="DetailController">
 
       <ons-toolbar>
-        <!--<div class="left"><ons-back-button>Back</ons-back-button></div> -->
-        <div class="center">Details</div>
+        <!--<div class="left"><ons-back-button>Indietro</ons-back-button></div> -->
+        <div class="center">Dettagli</div>
         <div class="left">
-	    <ons-button modifier="outline"; style="margin: 2px;"; ng-click="backReset()">Back</ons-button>
+	    <ons-button modifier="outline"; style="margin: 2px;"; ng-click="backReset()">Indietro</ons-button>
         </div>
       </ons-toolbar>
 
@@ -125,13 +125,13 @@ by www.giammy.com/hsk
 <ons-bottom-toolbar>
 	  <ons-row>
 	  <ons-col width="33%">
-	    <ons-button style="width: 96%; margin-left: 2%; margin-right: 2%; text-align: center;"; ng-click="showReplaceDetail(item.pidx)">Prev</ons-button>
+	    <ons-button style="width: 96%; margin-left: 2%; margin-right: 2%; text-align: center;"; ng-click="showReplaceDetail(item.pidx)">Prec</ons-button>
 	  </ons-col>
 	  <ons-col width="34%">
-	    <ons-button style="width: 96%; margin-left: 2%; margin-right: 2%; text-align: center;"; ng-click="showReplaceRandomDetail()">Random</ons-button>
+	    <ons-button style="width: 96%; margin-left: 2%; margin-right: 2%; text-align: center;"; ng-click="showReplaceRandomDetail()">Casuale</ons-button>
 	  </ons-col>
 	  <ons-col width="33%">
-	    <ons-button style="width: 96%; margin-left: 2%; margin-right: 2%; text-align: center;"; ng-click="showReplaceDetail(item.nidx)">Next</ons-button>
+	    <ons-button style="width: 96%; margin-left: 2%; margin-right: 2%; text-align: center;"; ng-click="showReplaceDetail(item.nidx)">Succ</ons-button>
 	  </ons-col>
 	  </ons-row>
 </ons-bottom-toolbar>
