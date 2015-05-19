@@ -140,7 +140,7 @@
 { idx: '68', pidx: '67', nidx: '69', title: '哪', label: 'nǎ', desc: 'quale? come?', image: 'blank-image.png' },
 { idx: '69', pidx: '68', nidx: '70', title: '哪儿', label: 'nǎr', desc: 'dove?', image: 'blank-image.png' },
 { idx: '70', pidx: '69', nidx: '71', title: '那', label: 'nà', desc: 'quello; allora; in quel caso', image: 'blank-image.png' },
-{ idx: '71', pidx: '70', nidx: '72', title: '那儿', label: 'nàr', desc: 'lì', image: 'there.png' },
+{ idx: '71', pidx: '70', nidx: '72', title: '那儿', label: 'nàr', desc: 'lì', image: 'there.jpg' },
 { idx: '72', pidx: '71', nidx: '73', title: '呢', label: 'ne', desc: '[particella interrogativa]', image: 'blank-image.png' },
 { idx: '73', pidx: '72', nidx: '74', title: '能', label: 'néng', desc: 'potere; essere capace di; abilità; capacità; aver la possibilità di', image: 'blank-image.png' },
 { idx: '74', pidx: '73', nidx: '75', title: '你', label: 'nǐ', desc: 'tu (informale)', image: 'you.jpg' },
